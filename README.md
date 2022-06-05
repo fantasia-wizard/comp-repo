@@ -1,7 +1,8 @@
 # comp-repo
-Just a repository for a little python project.
-installable packages are:
-pong.py: pong game
-helloworld.py: hello world
-install.py: update the installer script
-magic_stick: graphical text editor
+Just a repository for a little python project.<br>
+installable packages are:<br>
+pong.py: pong game<br>
+helloworld.py: hello world<br>
+install.py: update the installer script<br>
+magic_stick: graphical text editor<br>
+man.py: manual<br>
