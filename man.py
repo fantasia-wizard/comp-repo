@@ -1,0 +1,1 @@
+print('The computer.\nIt\'s not finished, but there are a few commands.\ncd: change which folder you are in\nls: list folders and files\nmkdir: make a new directory\nrm: remove a file\nrm -r: remove a directory\nNew commands can be installed in the \'bin\' directory.\nThese commands will be run by the system as a python file.\nMake sure that all new commands are proper python.')
