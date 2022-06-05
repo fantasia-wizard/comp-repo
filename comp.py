@@ -74,6 +74,8 @@ else:
 os.chdir('./comp')
 
 while True:
+    if not os.getcwd().startswith(dir):
+        os.chdir(dir)
     old_dir = os.getcwd()
     os.chdir(dir + '/comp')
     for x in ['./comp', './comp/bin', './comp/home', './comp/home/root', './comp/etc']:
@@ -108,8 +110,8 @@ while True:
     elif cmd == 'cd':
         file = input('Name: ')
         file = './' + file
-        if os.path.exists(file):
-            os.chdir(file)
+        if os.path.exists(file) and not (os.getcwd().endswith('comp') and file.startswith('./..')):
+           os.chdir(file)
         else:
             print('Error: Folder not found.')
     elif cmd == 'cat':
